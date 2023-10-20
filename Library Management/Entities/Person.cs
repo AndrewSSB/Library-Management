@@ -2,7 +2,7 @@
 
 namespace Library_Management.Entities
 {
-    internal sealed class Person : BaseEntity
+    public sealed class Person : BaseEntity
     {
         [IgnoreProperty]
         private static int NextId = 1;

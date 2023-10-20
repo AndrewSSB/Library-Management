@@ -2,7 +2,7 @@
 
 namespace Library_Management.Seeders
 {
-    internal static class BooksSeeder
+    public static class BooksSeeder
     {
         public static List<Book> SeedBooks(this List<Book> books)
         {

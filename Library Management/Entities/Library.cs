@@ -1,6 +1,6 @@
 ﻿namespace Library_Management.Entities
 {
-    internal sealed class Library : BaseEntity
+    public sealed class Library : BaseEntity
     {
         private static int NextId = 1;
         public List<Book> Books { get; set; }

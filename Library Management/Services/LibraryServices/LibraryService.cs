@@ -4,7 +4,7 @@ using Library_Management.Models;
 
 namespace Library_Management.Services.LibraryServices
 {
-    internal class LibraryService : ILibraryService 
+    public class LibraryService : ILibraryService 
     {
         private const float penaltyTaxPercent = 1;
 

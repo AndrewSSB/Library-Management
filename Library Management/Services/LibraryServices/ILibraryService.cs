@@ -2,7 +2,7 @@
 
 namespace Library_Management.Services.LibraryServices
 {
-    internal interface ILibraryService
+    public interface ILibraryService
     {   
         /// <summary>
         /// Add a book to the current book list.
